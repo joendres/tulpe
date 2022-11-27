@@ -131,17 +131,6 @@ function getStorageKey(color){
 	return array_keys[color];
 }
 
-function getArrayMessage(){
-	var array_message = {
-		"RED"  : "Classification: TLP-RED - personal for named recipients only",
-		"AMBER": "Classification: TLP-AMBER - Organisation:SPE - limited distribution",
-		"GREEN": "Classification: TLP-GREEN - community wide",
-		"WHITE": "Classification: TLP-WHITE - unlimited, subject to copyright rules"
-	};
-	
-	return array_message;
-}
-
 function getArrayHtmlColors(){
 	var array_colors = {
 		"RED"  : "#E03C31",
