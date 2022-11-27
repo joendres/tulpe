@@ -1,23 +1,24 @@
 {
-    "manifest_version": 2,
-    "name": "Tulpe",
-    "description": "Traffic light protocol extension for Thunderbird, messages are customizable in the option page.",
-    "version": "1.5",
-    "author": "S.P.E. Sistemi e progetti elettronici",
-    "applications": {
-        "gecko": {
-            "id": "tulpe@spe.it",
-            "strict_min_version": "78.0"
-        }
-    },
+	"manifest_version": 2,
+	"name": "Tulpe",
+	"description": "__MSG_extensionDescription__",
+	"version": "1.5",
+	"author": "S.P.E. Sistemi e progetti elettronici",
+	"applications": {
+		"gecko": {
+			"id": "tulpe@spe.it",
+			"strict_min_version": "78.0"
+		}
+	},
+	"default_locale": "en",
 	"compose_action": {
 		"default_title": "TLP",
-		"default_icon" : "images/icon.png",
-		"default_popup" : "compose_popup.html"
+		"default_icon": "images/icon.png",
+		"default_popup": "compose_popup.html"
 	},
 	"background": {
 		"scripts": [
-		  "background.js"
+			"background.js"
 		]
 	},
 	"options_ui": {
@@ -25,15 +26,15 @@
 		"open_in_tab": false,
 		"browser_style": true
 	},
-    "permissions": [
+	"permissions": [
 		"compose",
 		"tabs",
 		"activeTab",
 		"storage"
-    ],
-    "icons": {
-        "64": "images/64x64.png",
+	],
+	"icons": {
+		"64": "images/64x64.png",
 		"32": "images/32x32.png",
-        "16": "images/16x16.png"
-    }
+		"16": "images/16x16.png"
+	}
 }
