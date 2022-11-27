@@ -17,13 +17,16 @@
     "options_strings_note": {
         "message": "Note: all the messages will be preceded by \"Classification: TLP-COLOR - \""
     },
+    "classification_prefix": {
+        "message": "Classification: TLP-"
+    },
     "confirm_title": {
         "message": "Missing TLP"
     },
-    "confirm_legend":{
+    "confirm_legend": {
         "message": "Legend:"
     },
-    "confirm_select":{
+    "confirm_select": {
         "message": "Please select a TLP level"
     },
     "tlp_red_message": {

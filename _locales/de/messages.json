@@ -15,15 +15,18 @@
         "message": "TLP-Meldungen anpassen"
     },
     "options_strings_note": {
-        "message": "Hinweis: Allen Meldungen wird \"Classification: TLP-COLOR - \" vorangestellt."
+        "message": "Hinweis: Allen Meldungen wird \"Vertraulichkeit: TLP-COLOR - \" vorangestellt."
+    },
+    "classification_prefix": {
+        "message": "Vertraulichkeit: TLP-"
     },
     "confirm_title": {
-        "message": "TLP-Klassifizierung fehlt"
+        "message": "TLP-Stufe fehlt"
     },
     "confirm_legend": {
         "message": "Legende:"
     },
     "confirm_select": {
-        "message": "Bitte TLP-Klassifikation auswählen"
+        "message": "Bitte Vertraulichkeitsstufe auswählen"
     }
 }
