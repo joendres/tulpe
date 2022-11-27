@@ -1,0 +1,20 @@
+{
+    "extensionDescription": {
+        "message": "Ampelprotokoll-Erweiterung für Thunderbird, Meldungen sind auf der Optionsseite anpassbar."
+    },
+    "options_btn_danger": {
+        "message": "Änderungen verwerfen"
+    },
+    "options_btn_success": {
+        "message": "Änderungen speichern"
+    },
+    "options_msg_saved": {
+        "message": "Konfiguration gespeichert"
+    },
+    "options_strings_title": {
+        "message": "TLP-Meldungen anpassen"
+    },
+    "options_strings_note": {
+        "message": "Hinweis: Allen Meldungen wird \"Classification: TLP-COLOR - \" vorangestellt."
+    }
+}
