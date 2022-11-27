@@ -28,5 +28,17 @@
     },
     "confirm_select": {
         "message": "Bitte Vertraulichkeitsstufe auswählen"
+    },
+    "tlp_red_message": {
+        "message": "Persönlich, nur für bekannte Empfänger"
+    },
+    "tlp_amber_message": {
+        "message": "Eingeschränkte interne und organisationsübergreifende Weitergabe"
+    },
+    "tlp_green_message": {
+        "message": "Organisationsübergreifende Weitergabe"
+    },
+    "tlp_white_message": {
+        "message": "Unbegrenzte Weitergabe"
     }
 }
