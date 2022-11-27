@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Tulpe",
     "description": "__MSG_extensionDescription__",
-    "version": "1.5",
+    "version": "1.6",
     "author": "S.P.E. Sistemi e progetti elettronici",
 	"default_locale": "en",
     "applications": {
