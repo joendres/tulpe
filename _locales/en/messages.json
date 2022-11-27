@@ -16,5 +16,17 @@
     },
     "options_strings_note": {
         "message": "Note: all the messages will be preceded by \"Classification: TLP-COLOR - \""
+    },
+    "tlp_red_message": {
+        "message": "personal for named recipients only"
+    },
+    "tlp_amber_message": {
+        "message": "Organisation: - limited distribution"
+    },
+    "tlp_green_message": {
+        "message": "community wide"
+    },
+    "tlp_white_message": {
+        "message": "unlimited, subject to copyright rules"
     }
 }
