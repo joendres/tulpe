@@ -1,0 +1,12 @@
+{
+    "esversion": 8,
+    "unused": true,
+    "undef": true,
+    "futurehostile": true,
+    "globals": {
+        "browser": false
+    },
+    "browser": true,
+    "asi": true,
+    "funcscope": true
+}

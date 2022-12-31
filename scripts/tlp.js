@@ -4,7 +4,7 @@ async function writeTLPMessage(tab, color){
 	var subject = details.subject;
 	var new_subject = getSubjectMessage(color, subject);
 	var tlp_message = await getTlpMessage(color);
-	console.log(tlp_message);
+	// console.log(tlp_message);
 	
 	if(details.isPlainText){
 		var key = "plainTextBody";
@@ -112,7 +112,7 @@ function getArraySubjects(){
 }
 async function getTlpMessage(color){
 	var storage_key = getStorageKey(color);
-	console.log(storage_key);
+	// console.log(storage_key);
 	var message = await browser.storage.local.get().then((res) => {
 		return res[storage_key];
 	});

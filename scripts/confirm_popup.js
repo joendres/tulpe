@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
 });
 
 async function setBadgeTitle(){
-	var getValues = await browser.storage.local.get().then((res) => {
+	browser.storage.local.get().then((res) => {
 		document.getElementById("legend-red").innerText = res.tlp_red_message;
 		document.getElementById("legend-amber").innerText = res.tlp_amber_message;
 		document.getElementById("legend-green").innerText = res.tlp_green_message;
